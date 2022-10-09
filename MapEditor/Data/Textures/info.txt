@@ -1,0 +1,2 @@
+List of textures
+Must be in folder with Exe
