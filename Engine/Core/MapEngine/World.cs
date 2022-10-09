@@ -29,7 +29,7 @@ namespace Engine
         public World(Control control)
         {
             Control = control;
-            Tile = new Bitmap("Data/Textures/Grass/grass.gif");
+           // Tile = new Bitmap("Data/Textures/Grass/grass.gif");
         }
 
         public void Draw()
@@ -78,7 +78,7 @@ namespace Engine
             {
                 graphics.DrawImage(item.Sprite, item.Location.X, item.Location.Y, 32, 32);
             }
-
+            /*
             foreach (Block item in Blocks)
             {
                 graphics.DrawRectangle(new Pen(Color.Black, 4), item.Bounds);
@@ -100,7 +100,7 @@ namespace Engine
             }
             graphics.DrawRectangle(new Pen(Color.Green, 2), PlayerStart.Bounds);
             graphics.DrawString("Start", new Font("Motiva Sans", 8.0F), Brushes.Green, PlayerStart.Location.X + 5, PlayerStart.Location.Y + 10);
-
+            */
             isLoaded = false;
 
         }
